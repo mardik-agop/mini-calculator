@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Calculator</title>
+    <!-- Css File -->
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+
+    <!-- Start Form -->
+    <form id="form">
+      <input type="number" name="input" step="any">
+      <button class="btn plus" type="button" name="plus">+</button>
+      <button class="btn minus" type="button" name="minus">-</button>
+      <button class="btn equal" type="submit">=</button>
+      <div>
+        <p>Calculation: <span id="calculation"></span></p>
+        <p>Result: <span id="result"></span></p>
+      </div>
+    </form>
+    <!-- End Form -->
+
+    <!-- jQuery File -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+      <!-- JavaScript File -->
+    <script src="./app.js"></script>
+  </body>
+
+</html>
